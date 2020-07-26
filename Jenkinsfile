@@ -3,14 +3,14 @@
 pipeline {
     agent any
     stages {
-        stage('do something') {
+        stage('stage 1') {
             steps {
-                sh 'ps ax'
+                sh 'echo jack sucks'
             }
         }
-        stage('do something else') {
+        stage('stage 2') {
             steps {
-                sh 'echo jack sucks balls'
+                sh 'echo god damn! jack sucks balls'
             }
         }
     }
